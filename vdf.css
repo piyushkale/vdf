@@ -1,0 +1,319 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    background: #80801e;
+    box-shadow: inset 0px -6px 27px -6px;
+    align-items: center;
+    height: 72px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.contact {
+    width: 100vw;
+    background: #dbdbdb;
+    justify-content: end;
+    display: flex;
+    padding: 0.1rem;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    margin: 0 3rem;
+}
+
+.icons img {
+    width: 1rem;
+    margin: 0 0.5rem;
+    opacity: 0.8;
+}
+
+.call {
+    margin: 0 2rem;
+    font-size: small;
+}
+
+.logo {
+    height: 2.5rem;
+    /* border: 2px solid #f9e7e7; */
+}
+
+.title {
+    display: flex;
+    margin: 0px 23px;
+    font-size: 23px;
+    align-items: center;
+    padding: 0px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.title h2 {
+    color: #ffffff;
+    font-family: none;
+    margin-left: 2rem;
+    font-size: larger;
+    text-shadow: 4px 4px black;
+}
+
+.menu {
+    display: flex;
+    padding: 0 38px;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    /* background-color: #6a6a1b; */
+    color: rgb(255 255 255);
+    transition: all 0.4s ease;
+}
+
+.menu li {
+    padding: 0 1rem;
+}
+
+.menu li a {
+    padding: 11px 1rem;
+    text-decoration: none;
+    /* font-family: 'Oswald', sans-serif; */
+    color: white;
+    margin: 0;
+    font-size: 1.2rem;
+    transition: all 0.2s ease-in;
+}
+
+.menu li a:hover {
+    color: olive;
+    background-color: rgb(255, 255, 255);
+    padding: 11px 2rem;
+}
+
+/* pesidents message */
+.message {
+    display: flex;
+    padding-top: 3rem;
+    align-items: center;
+    justify-content: center;
+    background: url('bgmessage.jpg') no-repeat center center /cover;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    position: relative;
+    color: white;
+    top: 3rem;
+}
+
+.message h4 {
+    color: black;
+    padding: 0 1rem;
+    background: white;
+    margin-bottom: 10px;
+}
+
+.sons {
+    display: flex;
+    width: 38rem;
+    flex-flow: column wrap;
+    align-items: center;
+    line-height: 22px;
+    padding: 25px 11px;
+    height: 410px;
+}
+
+.sons img {
+    width: 250px;
+    margin-bottom: 21px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 21px -2px black;
+}
+
+.sons p {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.content {
+    display: flex;
+    margin: 2rem 0;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    margin: 2rem 0;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content p {
+    padding: 3rem 4rem;
+    font-size: 18px;
+    color: #363636;
+    background-color: rgb(237 237 237);
+}
+
+.heading-branch {
+    text-align: center;
+    margin-top: 2rem;
+    margin: 30px 0;
+    font-family: 'Oswald';
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.branch {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sub-branch {
+    width: 30rem;
+    border-radius: 22px;
+    background: rgb(243 243 243);
+    padding: 1rem;
+    margin: 13px 19px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-branch img {
+    width: 400px;
+    height: 250px;
+    border-radius: 25px 25px 0 0;
+    transition: all 0.3s ease;
+}
+.sub-branch img:hover{
+    transform:scale(1.1);
+} 
+
+.sub-branch input {
+    background: olive;
+    border: none;
+    font-size: 1.5rem;
+    margin: 1rem;
+    width: 8rem;
+    color: white;
+    font-family: 'Oswald';
+    height: 2.5rem;
+    transition: all 0.4s ease;
+}
+
+.sub-branch input:hover {
+    width: 10rem;
+}
+
+.sub-branch h4 {
+    text-transform: uppercase;
+    font-size: 25px;
+    text-shadow: 1px -1px black;
+    padding: 2px 22px;
+    color: #3c3c3c;
+    margin-bottom: 1rem;
+    font-family: 'Oswald';
+}
+
+/* Form section */
+#form-section {
+    background-color: #f3f3f3;
+    padding: 2rem 0px;
+    margin-top: 3rem;
+    flex-flow: column wrap;
+    color: black;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-section form {
+    display: flex;
+    background: #f3f3f3;
+    flex-flow: column;
+    box-shadow: 0px 0px 35px -5px black;
+    padding: 2rem;
+    /* margin: 0; */
+    border-radius: 1rem;
+
+}
+.heading-form{
+    text-align: center;
+    font-size: 1.3rem;
+    color: black;
+    text-decoration: underline;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    width: 147px;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 4px 0;
+}
+
+#form-section #textfield {
+    width: 27rem;
+    height: 6rem;
+    margin: 1rem 0;
+}
+#form-section input{
+    border: 1px black solid;
+    padding: revert;
+}
+#submit-btn{
+    width: 6rem;
+    border-radius: 9px;
+    margin: auto;
+    opacity: 0.9;
+    background: black;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+/* Footer section */
+
+footer {
+    display: flex;
+    background-color: olive;
+    justify-content: space-around;
+}
+
+.footer-box {
+    width: 15rem;
+    text-align: center;
+    padding: 2rem;
+}
+.footer-box ul{
+    list-style: none;
+    text-decoration: underline;
+}
+.footer-box a{
+color: blue;
+}
+
+
+
+
+
+
+
