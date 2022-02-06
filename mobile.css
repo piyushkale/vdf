@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'PT Serif', serif;
+    font-family: system-ui;
 }
 #hrno{
     display: none;
@@ -64,17 +64,17 @@ margin: 0;
     justify-content: center;
     align-items: center;
     margin: 0;
-    padding: 0px;
+    padding: 4px;
     font-family: 'Bebas Neue', cursive;
 }
 
 .title h2 {
-    color: #ffffff;
+    color: #000000;
     font-family: none;
-    padding: 12px 0px;
-    margin-left: 0.3rem;
-    font-size: large;
-    text-shadow: 2px 2px black;
+    padding: 11px 0;
+    margin-left: 0;
+    font-size: 18px;
+    text-shadow: 1px 1px #b9b6b6;
 }
 
 .menu {
@@ -100,7 +100,8 @@ margin: 0;
     color: rgb(0, 0, 0);
     margin: 0;
     transition: all 0.2s ease;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
 }
 
 .menu li a:hover {
@@ -115,7 +116,7 @@ margin: 0;
     padding: 14px 20px;
     align-items: center;
     justify-content: center;
-    background: url(bgmessage.jpg) no-repeat center center /cover;
+    background: gainsboro;
     flex-wrap: wrap;
     margin: 0;
     position: relative;
@@ -127,8 +128,8 @@ margin: 0;
     color: white;
     padding: 0 8px;
     font-size: 11px;
-    border-radius: 6px;
-    background: #000000;
+    border-radius: 2px;
+    background: #656565;
     margin-bottom: 0;
  }
 
@@ -150,10 +151,13 @@ margin: 0;
 }
 
 .sons p {
+ 
     font-style: italic;
     font-weight: normal;
     color: black;
-    font-size: 12px;
+    font-size: 13px;
+    text-shadow:0 0 17px #0c0c0c;
+
 }
 
 
@@ -201,12 +205,12 @@ margin: 0;
 }
 
 .sub-branch {
-    width: 95vw;
-    border-radius: 17px;
-    background: rgb(243 243 243);
-    padding: 0;
+    width: 92vw;
+    border-radius: 12px;
+    background: rgb(220 220 220);
+    padding: 6px 0;
     flex-flow: column wrap;
-    margin: 9px 0;
+    margin: 10px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -245,37 +249,39 @@ margin: 0;
 .sub-branch h4 {
     text-transform: uppercase;
     font-size: 21px;
-    text-shadow: none;
+    text-shadow: 1px 1px white;
     padding: 0;
-    color: #3c3c3c;
+    color: #181818;
     margin-bottom: 0;
-    margin: 6px 0;
+    margin: 7px 0;
+    font-family: system-ui;
 }
 
 /* Form section */
 #form-section {
-    background-color: #f3f3f3;
+    background-color: #939393;
     padding: 2rem 0px;
-    margin-top: 3rem;
+    margin-top: 1rem;
     flex-flow: column wrap;
     color: black;
     font-size: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    display: none;
-    /* temporary */
+    border: 3px 3px 3px 3px solid;
+    border: 2px 2px solid;
+    border-top: 1px solid;
 }
 
 #form-section form {
+    
     display: flex;
     background: #f3f3f3;
     flex-flow: column;
     box-shadow: 0px 0px 35px -5px black;
-    padding: 2rem;
+    padding: 0.5rem 2rem;
     /* margin: 0; */
     border-radius: 1rem;
-
 }
 .heading-form{
     text-align: center;
@@ -291,8 +297,8 @@ margin: 0;
 }
 
 #form-section #textfield {
-    width: 27rem;
-    height: 6rem;
+    width: 17rem;
+    height: 5rem;
     margin: 1rem 0;
 }
 #form-section input{
