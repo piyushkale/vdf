@@ -71,10 +71,10 @@ margin: 0;
 .title h2 {
     color: #000000;
     font-family: none;
-    padding: 11px 0;
+    padding: 7px 0;
     margin-left: 0;
     font-size: 18px;
-    text-shadow: 1px 1px #b9b6b6;
+    text-shadow: -1px 1px 6px #b9b6b6;
 }
 
 .menu {
@@ -85,7 +85,8 @@ margin: 0;
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
-    background: white;
+ border-top: 0.1px solid #c5c5c5;
+    background: #80801e;
     transition: all 0.2s ease;
 }
 
@@ -104,10 +105,11 @@ margin: 0;
     text-transform: uppercase;
 }
 
-.menu li a:hover {
-    color: rgb(42, 0, 158);
-    background: none;
+.menu li a:hover,#homepg {
+    color: #f7f7f7;
     padding: 0;
+    background: none;
+    border-bottom: 3px solid #303030;
 }
 
 /* pesidents message */
